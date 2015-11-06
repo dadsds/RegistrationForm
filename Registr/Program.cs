@@ -25,8 +25,10 @@ namespace Registr
         static void Main(string[] args)
         {
             RegistrationForm admin = new RegistrationForm();
+            // Admin standart login and password
             admin.Login = "Admin";
             admin.Password = "Admin1234";
+        
             for (;;)
             {
                 RegistrationForm form = new RegistrationForm();
