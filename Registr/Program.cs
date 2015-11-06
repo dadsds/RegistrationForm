@@ -24,6 +24,7 @@ namespace Registr
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello from registration form");
             RegistrationForm admin = new RegistrationForm();
             // Admin standart login and password
             admin.Login = "Admin";
