@@ -20,7 +20,7 @@ namespace Registr
             }
             set
             {
-                if (value.Length > 100)
+                if (value.Length > 150)
                 {
                     throw new ArgumentException("Password setting error");
                 }
