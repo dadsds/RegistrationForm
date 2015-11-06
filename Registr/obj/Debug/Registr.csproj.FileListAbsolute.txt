@@ -4,3 +4,6 @@ C:\Users\Alf\Documents\Visual Studio 2015\Projects\Registr\Registr\bin\Debug\Reg
 C:\Users\Alf\Documents\Visual Studio 2015\Projects\Registr\Registr\obj\Debug\Registr.csprojResolveAssemblyReference.cache
 C:\Users\Alf\Documents\Visual Studio 2015\Projects\Registr\Registr\obj\Debug\Registr.exe
 C:\Users\Alf\Documents\Visual Studio 2015\Projects\Registr\Registr\obj\Debug\Registr.pdb
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registr\obj\Debug\Registr.csprojResolveAssemblyReference.cache
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registr\obj\Debug\Registr.exe
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registr\obj\Debug\Registr.pdb
