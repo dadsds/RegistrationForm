@@ -57,7 +57,18 @@ namespace Registr
                 password = value;
             }
         }
-
+        private string email;
+        public string Email
+        {
+            get
+            {
+                return email;
+            }
+            set
+            {
+                email = value;
+            }
+        }
         private string login;
         public string Login
         {
