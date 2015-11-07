@@ -10,3 +10,11 @@ c:\users\alf\documents\visual studio 2015\Projects\Registration_Form\Registratio
 C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\bin\Debug\Registration_Form.exe.config
 C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\obj\Debug\Registration_Form.exe
 C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\obj\Debug\Registration_Form.pdb
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\obj\Debug\Registration_Form.csprojResolveAssemblyReference.cache
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\obj\Debug\Registration_Form.Registration.resources
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\obj\Debug\Registration_Form.Properties.Resources.resources
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\obj\Debug\Registration_Form.csproj.GenerateResource.Cache
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\bin\Debug\Registration_Form.exe
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\bin\Debug\Registration_Form.pdb
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\bin\Debug\RegistrationLibrary.dll
+C:\Users\Alf\Documents\GitHub\RegistrationForm\Registration_Form\bin\Debug\RegistrationLibrary.pdb

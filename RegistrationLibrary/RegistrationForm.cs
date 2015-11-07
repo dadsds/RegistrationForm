@@ -8,6 +8,15 @@ namespace RegistrationLibrary
 {
     public class RegistrationForm
     {
+        public RegistrationForm()
+        {
+
+        }
+        public RegistrationForm(string login, string password)
+        {
+            Login = login;
+            Password = password;
+        }
         //git github 
         // Пароль має складатись з 8 символів або більше, серед них букви нижнього регістру, верхнього регістру, цифри (PassWord123).
         // Якщо задаємо пароль, що не містить чогось з переліченого вище - клас викидає виключення.
@@ -116,6 +125,16 @@ namespace RegistrationLibrary
                 }
                 return result;
             }
+        }
+
+        public override bool Equals(object obj)
+        {
+            RegistrationForm form = obj as RegistrationForm;
+            if (form.Login != Login || form.Password != Password)
+            {
+                return false;
+            }
+            return true;
         }
 
     }
