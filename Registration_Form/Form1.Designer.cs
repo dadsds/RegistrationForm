@@ -36,7 +36,6 @@
             this.Password = new System.Windows.Forms.Label();
             this.Capcha = new System.Windows.Forms.Label();
             this.OK = new System.Windows.Forms.Button();
-            this.Where = new System.Windows.Forms.Label();
             this.Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -113,15 +112,6 @@
             this.OK.UseVisualStyleBackColor = true;
             this.OK.Click += new System.EventHandler(this.OK_Click);
             // 
-            // Where
-            // 
-            this.Where.AutoSize = true;
-            this.Where.Location = new System.Drawing.Point(15, 233);
-            this.Where.Name = "Where";
-            this.Where.Size = new System.Drawing.Size(159, 13);
-            this.Where.TabIndex = 9;
-            this.Where.Text = "Де у нас виводиться Capcha?";
-            // 
             // Exit
             // 
             this.Exit.Location = new System.Drawing.Point(89, 255);
@@ -138,7 +128,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(345, 290);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Where);
             this.Controls.Add(this.OK);
             this.Controls.Add(this.Capcha);
             this.Controls.Add(this.Password);
@@ -165,7 +154,6 @@
         private System.Windows.Forms.Label Password;
         private System.Windows.Forms.Label Capcha;
         private System.Windows.Forms.Button OK;
-        private System.Windows.Forms.Label Where;
         private System.Windows.Forms.Button Exit;
     }
 }
