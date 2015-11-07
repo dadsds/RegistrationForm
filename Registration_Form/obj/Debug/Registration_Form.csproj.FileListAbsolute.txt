@@ -1,0 +1,9 @@
+c:\users\alf\documents\visual studio 2015\Projects\Registration_Form\Registration_Form\bin\Debug\Registration_Form.exe.config
+c:\users\alf\documents\visual studio 2015\Projects\Registration_Form\Registration_Form\bin\Debug\Registration_Form.exe
+c:\users\alf\documents\visual studio 2015\Projects\Registration_Form\Registration_Form\bin\Debug\Registration_Form.pdb
+c:\users\alf\documents\visual studio 2015\Projects\Registration_Form\Registration_Form\obj\Debug\Registration_Form.csprojResolveAssemblyReference.cache
+c:\users\alf\documents\visual studio 2015\Projects\Registration_Form\Registration_Form\obj\Debug\Registration_Form.Registration.resources
+c:\users\alf\documents\visual studio 2015\Projects\Registration_Form\Registration_Form\obj\Debug\Registration_Form.Properties.Resources.resources
+c:\users\alf\documents\visual studio 2015\Projects\Registration_Form\Registration_Form\obj\Debug\Registration_Form.csproj.GenerateResource.Cache
+c:\users\alf\documents\visual studio 2015\Projects\Registration_Form\Registration_Form\obj\Debug\Registration_Form.exe
+c:\users\alf\documents\visual studio 2015\Projects\Registration_Form\Registration_Form\obj\Debug\Registration_Form.pdb
