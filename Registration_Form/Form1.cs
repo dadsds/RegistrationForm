@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using RegistrationLibrary;
 namespace Registration_Form
 {
     public partial class Registration : Form
@@ -15,6 +15,7 @@ namespace Registration_Form
         public Registration()
         {
             InitializeComponent();
+            
         }
 
         private void Exit_Click(object sender, EventArgs e)

@@ -1,0 +1,4 @@
+C:\Users\Alf\Documents\Visual Studio 2015\Projects\RegistrationLibrary\RegistrationLibrary\bin\Debug\RegistrationLibrary.dll
+C:\Users\Alf\Documents\Visual Studio 2015\Projects\RegistrationLibrary\RegistrationLibrary\bin\Debug\RegistrationLibrary.pdb
+C:\Users\Alf\Documents\Visual Studio 2015\Projects\RegistrationLibrary\RegistrationLibrary\obj\Debug\RegistrationLibrary.dll
+C:\Users\Alf\Documents\Visual Studio 2015\Projects\RegistrationLibrary\RegistrationLibrary\obj\Debug\RegistrationLibrary.pdb
