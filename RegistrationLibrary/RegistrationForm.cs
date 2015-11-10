@@ -4,14 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Registr
+namespace RegistrationLibrary
 {
-    class RegistrationForm
+    public class RegistrationForm
     {
+        public RegistrationForm()
+        {
+
+        }
+        public RegistrationForm(string login, string password)
+        {
+            Login = login;
+            Password = password;
+        }
         //git github 
         // Пароль має складатись з 8 символів або більше, серед них букви нижнього регістру, верхнього регістру, цифри (PassWord123).
         // Якщо задаємо пароль, що не містить чогось з переліченого вище - клас викидає виключення.
         private string password;
+        /// <summary>
+        /// Password must have more than 8 symbols. Password can't have a space symbol. Password must have upper and lower symbols and numbers.
+        /// </summary>
         public string Password
         {
             get
@@ -20,7 +32,7 @@ namespace Registr
             }
             set
             {
-                if (value.Length > 150)
+                if (value.Length > 100)
                 {
                     throw new ArgumentException("Password setting error");
                 }
@@ -57,19 +69,11 @@ namespace Registr
                 password = value;
             }
         }
-        private string email;
-        public string Email
-        {
-            get
-            {
-                return email;
-            }
-            set
-            {
-                email = value;
-            }
-        }
+
         private string login;
+        /// <summary>
+        /// Login must begin from letter. Login can't have a space symbol
+        /// </summary>
         public string Login
         {
             get
@@ -121,6 +125,16 @@ namespace Registr
                 }
                 return result;
             }
+        }
+
+        public override bool Equals(object obj)
+        {
+            RegistrationForm form = obj as RegistrationForm;
+            if (form.Login != Login || form.Password != Password)
+            {
+                return false;
+            }
+            return true;
         }
 
     }

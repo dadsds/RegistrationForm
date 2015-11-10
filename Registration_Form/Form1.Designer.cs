@@ -36,8 +36,8 @@
             this.Password = new System.Windows.Forms.Label();
             this.Capcha = new System.Windows.Forms.Label();
             this.OK = new System.Windows.Forms.Button();
-            this.Where = new System.Windows.Forms.Label();
             this.Exit = new System.Windows.Forms.Button();
+            this.RefreshCapchaButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Login_textBox
@@ -57,7 +57,7 @@
             // 
             // Capcha_textBox
             // 
-            this.Capcha_textBox.Location = new System.Drawing.Point(89, 173);
+            this.Capcha_textBox.Location = new System.Drawing.Point(89, 200);
             this.Capcha_textBox.Name = "Capcha_textBox";
             this.Capcha_textBox.Size = new System.Drawing.Size(164, 20);
             this.Capcha_textBox.TabIndex = 2;
@@ -97,7 +97,7 @@
             // 
             this.Capcha.AutoSize = true;
             this.Capcha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Capcha.Location = new System.Drawing.Point(12, 174);
+            this.Capcha.Location = new System.Drawing.Point(175, 172);
             this.Capcha.Name = "Capcha";
             this.Capcha.Size = new System.Drawing.Size(55, 16);
             this.Capcha.TabIndex = 7;
@@ -113,15 +113,6 @@
             this.OK.UseVisualStyleBackColor = true;
             this.OK.Click += new System.EventHandler(this.OK_Click);
             // 
-            // Where
-            // 
-            this.Where.AutoSize = true;
-            this.Where.Location = new System.Drawing.Point(15, 233);
-            this.Where.Name = "Where";
-            this.Where.Size = new System.Drawing.Size(159, 13);
-            this.Where.TabIndex = 9;
-            this.Where.Text = "Де у нас виводиться Capcha?";
-            // 
             // Exit
             // 
             this.Exit.Location = new System.Drawing.Point(89, 255);
@@ -132,13 +123,23 @@
             this.Exit.UseVisualStyleBackColor = true;
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
+            // RefreshCapchaButton
+            // 
+            this.RefreshCapchaButton.Location = new System.Drawing.Point(89, 169);
+            this.RefreshCapchaButton.Name = "RefreshCapchaButton";
+            this.RefreshCapchaButton.Size = new System.Drawing.Size(57, 23);
+            this.RefreshCapchaButton.TabIndex = 11;
+            this.RefreshCapchaButton.Text = "Refresh";
+            this.RefreshCapchaButton.UseVisualStyleBackColor = true;
+            this.RefreshCapchaButton.Click += new System.EventHandler(this.RefreshCapchaButton_Click);
+            // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(345, 290);
+            this.Controls.Add(this.RefreshCapchaButton);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Where);
             this.Controls.Add(this.OK);
             this.Controls.Add(this.Capcha);
             this.Controls.Add(this.Password);
@@ -165,8 +166,8 @@
         private System.Windows.Forms.Label Password;
         private System.Windows.Forms.Label Capcha;
         private System.Windows.Forms.Button OK;
-        private System.Windows.Forms.Label Where;
         private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.Button RefreshCapchaButton;
     }
 }
 
