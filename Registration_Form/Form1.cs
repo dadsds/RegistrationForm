@@ -52,6 +52,7 @@ namespace Registration_Form
             {
                 MessageBox.Show("Declined!");
             }
+            Capcha.Text = userRegistrationInfo.Capcha;
 
         }
 
